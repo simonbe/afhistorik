@@ -80,18 +80,6 @@ c=b-a
 # get the corresponding best matches given the SNI codes in e.g. 'Sundbyberg'
 sniRes = res['java']['SNI']
 
-# weight codes
-#AGOps = AGOperations.AGGenerals()
-#pathAG = 'C:/Projects/spark-analysis/GFR/'
-#AGOps.LoadData(pathAG)
-
-#normalizedSNIs = calcResult('och')['och']['SNI']
-#res = AGOps.CalcResult(sniRes,normalizedSNIs,'Gotland')
-
-#weightedRes = []
-#for i in range(len(sniRes['Counts'])):
-#    sniRes
-
 print res
 
 for r in res:
@@ -104,11 +92,3 @@ print c.total_seconds()
 
 
 print 'end'
-
-# Exempel:
-# 1. hur många av programmeringsannonserna efterfrågade javascript; javascript Systemutveckling,Systemutveckling
-# 2. hur många efterfrågade flexibel och ansvarsfull: (flexibel ansvarsfull)
-# 3. i vilka yrken efterfrågas mjuka kompetenser? kreativ;...
-# 4. vilka utbildningar krävs inom Systemutvecklare? (högskoleexamen master mastersexamen) Systemutvecklare,(phd doktorsexamen) Systemutvecklare, Systemutvecklare
-# 5. vilket yrke borde jag söka mig till (naive bayes)? '(jag tycker om att spela golf och mecka med maskiner och bilar)'
-# 6. .net eller java i olika delar av landet?
