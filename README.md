@@ -17,7 +17,7 @@ Link: http://13.94.101.59:5000/realtime1/ + query
 Notebook: https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb
 
 ### Example app 
-(javascript + jQuery + d3)  
+(javascript + d3)  
 Visualizes some of the output from the API.  
 Link: http://historik.azurewebsites.net
 
