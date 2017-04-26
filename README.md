@@ -13,7 +13,7 @@ Calculates sparse vectors for occurences of all words/phrases used more than 20 
 ### API 
 (Python + flask)  
 Loads computed sparse vectors into memory. These are used as <a href="https://en.wikipedia.org/wiki/Bitmap_index">in-memory bitmaps</a> for statistics calculations. Has a simple interpreter for a query syntax using bit operations (see notebook for examples). For a specific query, outputs sums for various variables such as months, years, employers and occupations.  
-Link: http://13.94.101.59:5000/realtime1/ + query  
+Link (+query 'javascript'): http://13.94.101.59:5000/realtime1/javascript  
 Notebook: https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb
 
 ### Example app 
