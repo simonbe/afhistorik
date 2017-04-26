@@ -1,26 +1,22 @@
 ## Historical Job Postings API+Example
 
+Repository for API and example app at <http://jobtechdev.se/assets/historical-job-postings>.
 
-
-Requirements 
------------------
+### Requirements 
 - Anaconda 3.x
 - Apache Spark
 
-Computations 
------------------
+### Computations 
 (Python + Spark)  
-Calculates sparse vectors for occurences of all words/phrases used more than 20 times (~500k) across all job postings. These are saved to a gzipped pickle as { 'word1': [sparse vector 1], 'word2': [sparse vector 2] ... }  
-Note that this computation will take several hours if run on a local machine. A pre-calculated matrix can be downloaded here.  
+Calculates sparse vectors for occurences of all words/phrases used more than 20 times (~500k) across all job postings. These are saved to a gzipped pickle. Note: This computation will take several hours if run on a local machine.  
 
-API 
------------------
+### API 
 (Python + flask)  
-Loads computed sparse vectors into memory. The sparse vectors are used as <a href="https://en.wikipedia.org/wiki/Bitmap_index">in-memory bitmaps</a>. Has a simple interpreter for a query syntax using bit operations (see notebook for examples). For a specific query, outputs sums for various variables such as months, years, employers and occupations.  
-Link: 
+Loads computed sparse vectors into memory. These are used as <a href="https://en.wikipedia.org/wiki/Bitmap_index">in-memory bitmaps</a> for statistics calculations. Has a simple interpreter for a query syntax using bit operations (see notebook for examples). For a specific query, outputs sums for various variables such as months, years, employers and occupations.  
+Link: http://13.94.101.59:5000/realtime1/ + query  
+Notebook: https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb
 
-Example app 
------------------
+### Example app 
 (javascript + jQuery + d3)  
 Visualizes some of the output from the API.  
 Link: http://historik.azurewebsites.net
