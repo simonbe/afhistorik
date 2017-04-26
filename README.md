@@ -8,7 +8,7 @@ Repository for API and example app at <http://jobtechdev.se/assets/historical-jo
 
 ### Computations 
 (Python + Spark)  
-Calculates sparse vectors for occurences of all words/phrases used more than 20 times (~500k) across all job postings. These are saved to a gzipped pickle. Note: This computation will take several hours if run on a local machine.  
+Calculates sparse vectors for occurences of all words/phrases used more than 20 times (~500k) across all job postings. These are saved to a gzipped pickle. Note: This will take several hours if run on a local machine.  
 
 ### API 
 (Python + flask)  
