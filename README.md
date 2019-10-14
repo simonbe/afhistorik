@@ -1,6 +1,6 @@
 ## Historical Job Postings API+Example
 
-Repository for the statistics API and an example app for the dataset located at <http://jobtechdev.se/assets/historical-job-postings>.
+Repository for the statistics API and an example app for the dataset located at <https://jobtechdev.se/devguide/datasets/historical.html>.
 
 ### Requirements 
 - Anaconda 3.x
